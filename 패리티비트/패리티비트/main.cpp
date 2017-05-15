@@ -13,7 +13,7 @@ using namespace std;
 
 int main(void){
     ifstream inStream;
-    inStream.open("/Users/Dani/Documents/C++class/패리티비트/패리티비트/input.txt");
+    inStream.open("/Users/Dani/Documents/classCpp/패리티비트/패리티비트/input.txt");
     
     if(inStream.fail()){
         cerr<<"input file opening failed.\n";
